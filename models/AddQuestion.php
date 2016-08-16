@@ -69,8 +69,6 @@ class AddQuestion{
 		$this->db->execute();
 		$this->lastid = $this->db->getLastInsertId();
 		//echo "last id $this->lastid";
-		
-		
 		$answers=array(1=>$this->answer1, 2=>$this->answer2, 3=>$this->answer3, 4=>$this->answer4);
 		foreach($answers as $k=>$v){
 			//if answer field in the form is empty, stop adding answers into array;
