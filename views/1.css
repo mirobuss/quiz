@@ -1,0 +1,78 @@
+.head{
+
+	text-align:center;
+}
+.start{
+	border:1px solid black;
+	padding:15px;
+	width:300px;
+	text-align:center;
+	margin:auto;
+	border-radius:10px;
+	    background-color: #9DBBE8;
+}
+.div1 {
+	margin-top:10px;
+	text-align:center;
+}
+
+.question {
+	padding:1px;
+	margin-top:25px;
+	text-align:center;
+	color:black;
+	background-color:#E8B525;
+	font-size:30px;
+}
+.answers {
+	text-align:center;
+	padding:10px;
+	background-color:#E8B525;
+}
+
+.button{
+	  height: 50px;
+    width: 300px;
+    background: #F7C78C;
+    font-size: large;
+    font-weight: 900;
+    box-shadow: 0px 0px 9px 0px;
+    color: #3C3C3C;
+}
+
+.leftscore{
+	float:left;
+	font-size:30px;
+	font-weight:bold;
+	color:green;
+}
+.rightscore{
+	color:red;
+	float:right;
+	font-size:30px;
+	font-weight:bold;
+}
+.result{
+	border-top:3px solid gray;
+	margin-top:1px;
+	width:50%;
+	margin:auto;
+}
+
+.answer-inputs {
+	padding:15px;
+}
+
+textarea {
+	padding:10px;
+}
+
+.finish{
+	font-size:30px;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
