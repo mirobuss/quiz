@@ -63,7 +63,6 @@ class AddQuestion{
 	}
 		
 	public function AddToDB(){
-		
 		//Insert question into DB and get last id
 		$params[]=$this->question;
 		$this->db->prepare("INSERT INTO qz_questions (question_text) VALUES (?)",$params);
